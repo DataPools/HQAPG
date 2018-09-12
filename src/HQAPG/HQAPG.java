@@ -21,7 +21,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class HQAPG {
 	static final boolean debugMode = false;
 	static final String ip = "192.168.1.118";
-  //Insert your bearerToken here
+	//Insert your bearer token here
 	static String bearerToken = "";
 	static ArrayList<WebDriver> drivers = new ArrayList<WebDriver>();
 	static ArrayList<ChromeThread> chromethreads = new ArrayList<ChromeThread>();
