@@ -20,7 +20,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class HQAPG {
 	static final boolean debugMode = false;
-	static final String ip = "192.168.1.118";
+	static final String ip = "<YOUR IP HERE>";
 	//Insert your bearer token here
 	static String bearerToken = "";
 	static ArrayList<WebDriver> drivers = new ArrayList<WebDriver>();
